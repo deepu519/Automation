@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MobileAuto">
+  <test thread-count="5" name="Mobile">
+    <classes>
+      <class name="Mobile.Contactus"/>
+      <class name="Mobile.Login"/>
+      <class name="Mobile.Launch"/>
+      <class name="Mobile.Search"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
